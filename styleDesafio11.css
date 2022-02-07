@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+header > h1{
+    font-size: 10vw;
+    font-size: 3em;
+    padding: 10px;
+}
+
+header > p{
+    padding: 10px;
+}
+
+article{
+    text-align: left;
+    padding: 10px;
+    font-family: 'Sriracha', Georgia, 'Times New Roman', Times, serif;
+}
+
+article > p{
+    padding: 20px;
+    margin: 10px;
+    font-size: 3.5vw;
+    line-height: 1.5em;
+}
+
+section#fundo1{
+    padding: 15px;
+    color: white;
+    font-size: 3.5vw;
+    line-height: 2em;
+    background: black url('imagens/pexels-singkham-1108572.jpg') left center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
+}
+
+section#fundo1 > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.363);
+    text-shadow: 1px 1px 1px black;
+}
+
+section#fundo2{
+    padding: 15px;
+    color: white;
+    font-size: 3.5vw;
+    line-height: 2em;
+    background: black url('imagens/pexels-karolina-grabowska-4195330.jpg') right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
+}
+
+section#fundo2 > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
